@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-import CV from "assets/NazarCV.pdf";
+import CV from "assets/MyCV.pdf";
 
 export const Header = () => {
     return (
@@ -16,7 +16,7 @@ export const Header = () => {
                 <div className="header__text">
                     <p>with passion for learning and creating.</p>
                 </div>
-                <a href={CV} download="NazarCV.pdf" className="btn">
+                <a href={CV} download="MyCV.pdf" className="btn">
                     Download CV
                 </a>
             </div>
