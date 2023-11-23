@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Project } from "components/project/Project";
 
-import { projects } from "helpers/projectsList";
+import { projectsList } from "helpers/projectsList";
 
 export const ProjectsPage = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        setProjects([...projectsList].reverse());
+    }, []);
+
     return (
         <main className="section">
             <div className="container">
