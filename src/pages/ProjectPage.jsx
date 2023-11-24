@@ -32,7 +32,7 @@ export const ProjectPage = () => {
                         <h2 className="title-2">Description</h2>
 
                         <div className="project-details__desc">
-                            <p style={{ fontSize: "20px" }}>
+                            <p style={{ fontSize: "20px", fontWeight: "400" }}>
                                 {project.description}
                             </p>
                         </div>
@@ -40,7 +40,9 @@ export const ProjectPage = () => {
                         <h2 className="title-2">Tech Stack</h2>
 
                         <div className="project-details__desc">
-                            <p style={{ fontSize: "20px" }}>{project.skills}</p>
+                            <p style={{ fontSize: "20px", fontWeight: "400" }}>
+                                {project.skills}
+                            </p>
                         </div>
 
                         <BtnGitHub link={project.gitHubLink} />
