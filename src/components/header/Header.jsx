@@ -11,7 +11,7 @@ export const Header = () => {
                     <strong>
                         Hi, my name is <em>Nazar</em>
                     </strong>
-                    <br />a frontend developer
+                    <br />a Software Engineer
                 </h1>
                 <div className="header__text">
                     <p>with passion for learning and creating.</p>

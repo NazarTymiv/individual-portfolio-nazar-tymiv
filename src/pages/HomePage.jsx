@@ -10,28 +10,17 @@ export const HomePage = () => {
                 <div className="container">
                     <ul className="content-list">
                         <li className="content-list__item">
-                            <h2 className="title-1">About me</h2>
+                            <h2 className="title-1 aboutme-title">About me</h2>
                             <p>
-                                Hello, I'm Nazar, born on August 31, 2005. I
-                                began coding at age 9, starting with JavaScript.
-                                I found tutorials on YouTube, creating small
-                                projects using Windows Notepad. Despite the
-                                simplicity, it laid the foundation for my coding
-                                journey.
+                                My name is Nazar, I'm a Software Engineer based
+                                in London, UK. I have very good experience of
+                                developing many types of fullstack application
+                                from anonymous web chat to ecommerce stores.
                                 <br />
                                 <br />
-                                Later, I joined IT classes in my school,
-                                exploring Scratch, a kid-friendly programming
-                                language. Self-learning Python, HTML & CSS, and
-                                JavaScript a bit later React and started learn
-                                backend as well including node.js, MongoDB etc.
-                                followed, with Google and YouTube as my guides.
-                                A course on advanced HTML & CSS polished my
-                                skills, enhancing not only my technical
-                                abilities but also my communication and teamwork
-                                skills. Now, I bring valuable experience to
-                                collaborative projects, adept at problem-solving
-                                both individually and within a team.
+                                I'm fascinated by beautiful interfaces,
+                                interesting projects with good ideas, creating
+                                perfect and high-performance applications.
                             </p>
                         </li>
                         <li className="content-list__item">
