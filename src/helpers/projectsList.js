@@ -19,6 +19,9 @@ import prj6Big from 'assets/img/projects/06.png'
 import prj7 from 'assets/img/projects/07.png'
 import prj7Big from 'assets/img/projects/07.png'
 
+import prj8 from 'assets/img/projects/08.png'
+import prj8Big from 'assets/img/projects/08.png'
+
 export const projectsList = [
   {
     id: '1',
@@ -102,5 +105,20 @@ export const projectsList = [
     linkWebsite: 'https://weather-app-nazar.netlify.app/',
     description:
       'During my time at Boolean, I developed a comprehensive weather application. This app utilizes geolocation services to pinpoint your current location, sends a request to Api, and seamlessly presents the current weather conditions in your region.'
+  },
+  {
+    id: '8',
+    title: 'Jobify',
+    skills:
+      'React, JSX, Java Script, Tailwind, express, Elephant SQL, Prisma, Postgresql, Figma, Adobe Photoshop, React Icons',
+    img: prj8,
+    imgBig: prj8Big,
+    gitHubLink: 'https://github.com/NazarTymiv/jobify',
+    linkWebsite: 'https://jobify-io.netlify.app/',
+    description: `Introducing Jobify - your ultimate companion in the job hunt! Crafted as my flagship project during my time at Boolean, Jobify revolutionizes the job search experience. Picture this: you're presented with job opportunities in the form of sleek, swipeable cards reminiscent of Tinder. With just a swipe to the right, you express interest in a job; a swipe to the left, and it's out of sight.
+
+      But Jobify goes beyond mere swipes. Once you've expressed interest in a role, the employer behind the job listing gains insight into your profile. Your profile serves as a comprehensive snapshot of your professional prowess, complete with links to your portfolio website, CV, and more. Employers can gauge your suitability for the role and even reach out to you directly with job offers, creating a seamless bridge between talent and opportunity.
+      
+      With Jobify, the job search becomes not just efficient, but engaging and interactive. Say goodbye to traditional job boards and hello to a dynamic, intuitive platform designed to connect you with your dream job.`
   }
 ]
