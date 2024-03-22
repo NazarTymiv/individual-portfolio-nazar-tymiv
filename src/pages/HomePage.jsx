@@ -1,7 +1,8 @@
 import React from 'react'
 import { Header } from 'components/header/Header'
+import opacityTransition from 'utils/opacityTransition'
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <>
       <Header />
@@ -46,3 +47,5 @@ export const HomePage = () => {
     </>
   )
 }
+
+export default opacityTransition(HomePage)
