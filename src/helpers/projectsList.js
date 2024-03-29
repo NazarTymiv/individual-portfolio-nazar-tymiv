@@ -25,7 +25,7 @@ import prj8Big from 'assets/img/projects/08.png'
 export const projectsList = [
   {
     id: '1',
-    title: 'Robo School',
+    title: 'Robo School app',
     skills:
       'HTML & CSS, Java Script, Gulp JS, Node JS, Express JS, Figma, Adobe Photoshop',
     img: prj1,
@@ -37,7 +37,7 @@ export const projectsList = [
   },
   {
     id: '2',
-    title: 'MNTN',
+    title: 'Mountains web app',
     skills:
       'HTML & CSS, Java Script, Gulp JS, Node JS, Express JS, Figma, Adobe Photoshop',
     img: prj2,
@@ -49,7 +49,7 @@ export const projectsList = [
   },
   {
     id: '3',
-    title: 'MOZI',
+    title: 'Tech company web app',
     skills:
       'HTML & CSS, Java Script, Gulp JS, Node JS, Express JS, Figma, Adobe Photoshop',
     img: prj3,
@@ -61,7 +61,7 @@ export const projectsList = [
   },
   {
     id: '4',
-    title: 'ECOMVISION',
+    title: ' Admin dashboard',
     skills:
       'HTML & CSS, Java Script, Node JS, Express JS, Figma, Adobe Photoshop, React, MongoDB, Mui Material, Mui Icons, Nino',
     img: prj4,
@@ -73,7 +73,7 @@ export const projectsList = [
   },
   {
     id: '5',
-    title: 'REACT PIZZA',
+    title: 'Pizza web app',
     skills:
       'HTML & CSS, SCSS, JSX, TSX, TypeScript, Java Script, Node JS, Express JS, Figma, Adobe Photoshop, React JS, MongoDB, Redux Toolkit, Redux, Ajax',
     img: prj5,
@@ -85,7 +85,7 @@ export const projectsList = [
   },
   {
     id: '6',
-    title: 'SPS Chat',
+    title: 'Anonymous chat',
     skills:
       'HTML & CSS, JSX, Node JS, Express JS, Figma, Adobe Photoshop, React JS, Socket.IO',
     img: prj6,
@@ -108,7 +108,7 @@ export const projectsList = [
   },
   {
     id: '8',
-    title: 'Jobify',
+    title: 'Search Job App',
     skills:
       'React, JSX, Java Script, Tailwind, express, Elephant SQL, Prisma, Postgresql, Figma, Adobe Photoshop, React Icons',
     img: prj8,
