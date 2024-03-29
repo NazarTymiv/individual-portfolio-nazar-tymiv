@@ -61,7 +61,7 @@ export const projectsList = [
   },
   {
     id: '4',
-    title: ' Admin dashboard',
+    title: 'Admin dashboard',
     skills:
       'HTML & CSS, Java Script, Node JS, Express JS, Figma, Adobe Photoshop, React, MongoDB, Mui Material, Mui Icons, Nino',
     img: prj4,
@@ -87,7 +87,7 @@ export const projectsList = [
     id: '6',
     title: 'Anonymous chat',
     skills:
-      'HTML & CSS, JSX, Node JS, Express JS, Figma, Adobe Photoshop, React JS, Socket.IO',
+      'HTML & CSS, JSX, Node JS, Express JS, Figma, Adobe Photoshop, Socket.IO',
     img: prj6,
     imgBig: prj6Big,
     gitHubLink: 'https://github.com/NazarTymiv/SPS',
