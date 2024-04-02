@@ -27,18 +27,18 @@ const HomePage = () => {
               <h2 className="title-1">My Tech Stack</h2>
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM,
-                BootStrap, MaterialUI, Yarn, ReactNative, GulpJS
+                JavaScript, TypeScript, ReactJS, Redux, Redux Toolkit, HTML, CSS,
+                BootStrap, MaterialUI, ReactNative, GulpJS, Tailwind, Axios
               </p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>NodeJS, MySQL, MongoDB, expressJS, Prisma</p>
+              <p>NodeJS, MySQL, MongoDB, ExpressJS, NestJS, Prisma, Docker, Jest, Jasmine, Websocket</p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Additional</h2>
               <p>
-                Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Figma
+                Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Figma, Git, Agile, Scrum, TDD
               </p>
             </li>
           </ul>
