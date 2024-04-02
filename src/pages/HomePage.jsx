@@ -38,7 +38,7 @@ const HomePage = () => {
             <li className="content-list__item">
               <h2 className="title-2">Additional</h2>
               <p>
-                Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Figma, Git, Agile, Scrum, TDD
+                Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Figma, Git, Agile, Scrum, TDD, Insomnia, PostMan
               </p>
             </li>
           </ul>
