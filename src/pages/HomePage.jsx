@@ -29,14 +29,14 @@ const HomePage = () => {
               <p>
                 JavaScript, TypeScript, ReactJS, Redux, Redux Toolkit, HTML,
                 CSS, BootStrap, MaterialUI, ReactNative, GulpJS, Tailwind,
-                Axios, HTMX
+                Axios, HTMX, NextJS
               </p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
               <p>
                 NodeJS, MySQL, MongoDB, ExpressJS, NestJS, Prisma, Docker, Jest,
-                Jasmine, Websocket, Golang
+                Jasmine, Websocket, Golang, NextJS
               </p>
             </li>
             <li className="content-list__item">
