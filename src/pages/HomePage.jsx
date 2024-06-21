@@ -1,6 +1,41 @@
 import React from 'react'
-import {Header} from 'components/header/Header'
+import { Header } from 'components/header/Header'
 import opacityTransition from 'utils/opacityTransition'
+import {
+  AftereffectsOriginal,
+  AxiosPlain,
+  BootstrapOriginal,
+  CsharpOriginal,
+  Css3Original,
+  DockerOriginal,
+  ExpressOriginal,
+  FigmaOriginal,
+  GitOriginal,
+  GoOriginal,
+  GulpPlain,
+  Html5Original,
+  InsomniaOriginal,
+  JasmineOriginal,
+  JavascriptOriginal,
+  JestPlain,
+  MaterialuiOriginal,
+  MongodbOriginal,
+  MysqlOriginal,
+  NestjsOriginal,
+  NextjsOriginal,
+  NodejsOriginal,
+  PhotoshopOriginal,
+  PostgresqlOriginal,
+  PostmanOriginal,
+  PremiereproOriginal,
+  PrismaOriginal,
+  ReactOriginal,
+  ReactnavigationOriginal,
+  ReduxOriginal,
+  SocketioOriginal,
+  TailwindcssOriginal,
+  TypescriptOriginal,
+} from 'devicons-react'
 
 const HomePage = () => {
   return (
@@ -26,25 +61,52 @@ const HomePage = () => {
             <li className="content-list__item">
               <h2 className="title-1">My Tech Stack</h2>
               <h2 className="title-2">Frontend</h2>
-              <p>
-                JavaScript, TypeScript, ReactJS, Redux, Redux Toolkit, HTML,
-                CSS, BootStrap, MaterialUI, ReactNative, GulpJS, Tailwind,
-                Axios, HTMX, NextJS
-              </p>
+              <div className="content-techstack">
+                <JavascriptOriginal size="50" />
+                <TypescriptOriginal size="50" />
+                <ReactOriginal size="50" />
+                <ReduxOriginal size="50" />
+                <Html5Original size="50" />
+                <Css3Original size="50" />
+                <BootstrapOriginal size="50" />
+                <MaterialuiOriginal size="50" />
+                <ReactnavigationOriginal size="50" />
+                <GulpPlain size="50" />
+                <TailwindcssOriginal size="50" />
+                <AxiosPlain size="50" />
+                <NextjsOriginal size="50" />
+              </div>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>
-                NodeJS, MySQL, MongoDB, ExpressJS, NestJS, Prisma, Docker, Jest,
-                Jasmine, Websocket, Golang, NextJS
-              </p>
+              <div className="content-techstack">
+                <NodejsOriginal size="50" />
+                <MysqlOriginal size="50" />
+                <MongodbOriginal size="50" />
+                <ExpressOriginal size="50" />
+                <NestjsOriginal size="50" />
+                <PrismaOriginal size="50" />
+                <DockerOriginal size="50" />
+                <JestPlain size="50" />
+                <JasmineOriginal size="50" />
+                <SocketioOriginal size="50" />
+                <GoOriginal size="50" />
+                <NextjsOriginal size="50" />
+                <CsharpOriginal size="50" />
+                <PostgresqlOriginal size="50" />
+              </div>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Additional</h2>
-              <p>
-                Adobe Photoshop, Adobe After Effects, Adobe Premiere Pro, Figma,
-                Git, Agile, Scrum, TDD, Insomnia, PostMan
-              </p>
+              <div className="content-techstack">
+                <PhotoshopOriginal size="50" />
+                <AftereffectsOriginal size="50" />
+                <PremiereproOriginal size="50" />
+                <FigmaOriginal size="50" />
+                <GitOriginal size="50" />
+                <InsomniaOriginal size="50" />
+                <PostmanOriginal size="50" />
+              </div>
             </li>
           </ul>
         </div>
