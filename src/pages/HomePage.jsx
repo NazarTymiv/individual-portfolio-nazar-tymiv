@@ -61,7 +61,7 @@ const HomePage = () => {
             <li className="content-list__item">
               <h2 className="title-1">My Tech Stack</h2>
               <h2 className="title-2">Frontend</h2>
-              <div className="content-techstack">
+              <div className="content-techStack">
                 <JavascriptOriginal size="50" />
                 <TypescriptOriginal size="50" />
                 <ReactOriginal size="50" />
@@ -79,7 +79,7 @@ const HomePage = () => {
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <div className="content-techstack">
+              <div className="content-techStack">
                 <NodejsOriginal size="50" />
                 <MysqlOriginal size="50" />
                 <MongodbOriginal size="50" />
@@ -98,7 +98,7 @@ const HomePage = () => {
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Additional</h2>
-              <div className="content-techstack">
+              <div className="content-techStack">
                 <PhotoshopOriginal size="50" />
                 <AftereffectsOriginal size="50" />
                 <PremiereproOriginal size="50" />

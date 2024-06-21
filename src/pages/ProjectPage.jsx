@@ -40,10 +40,10 @@ const ProjectPage = () => {
 
             <h2 className="title-2">Tech Stack</h2>
 
-            <div className="project-details__desc">
-              <p style={{ fontSize: '20px', fontWeight: '400' }}>
-                {project.skills}
-              </p>
+            <div className="project-details__techStack">
+              {project.skills.map((skill) => (
+                <>{skill}</>
+              ))}
             </div>
 
             <BtnGitHub link={project.gitHubLink} />

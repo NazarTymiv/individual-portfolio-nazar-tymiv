@@ -24,13 +24,43 @@ import prj8Big from 'assets/img/projects/08.png'
 
 import prj9 from 'assets/img/projects/09-main.jpg'
 import prj9Big from 'assets/img/projects/09.png'
+import {
+  AxiosPlain,
+  Css3Original,
+  ExpressOriginal,
+  FigmaOriginal,
+  GulpPlain,
+  Html5Original,
+  JavascriptOriginal,
+  MaterialuiOriginal,
+  MongodbOriginal,
+  NextjsOriginal,
+  NodejsOriginal,
+  PhotoshopOriginal,
+  PostgresqlOriginal,
+  PrismaOriginal,
+  ReactOriginal,
+  ReduxOriginal,
+  SassOriginal,
+  SocketioOriginal,
+  TailwindcssOriginal,
+  TypescriptOriginal,
+} from 'devicons-react'
 
 export const projectsList = [
   {
     id: '1',
     title: 'Robo School app',
-    skills:
-      'HTML & CSS, Java Script, Gulp JS, Node JS, Express JS, Figma, Adobe Photoshop',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <JavascriptOriginal size="50" />,
+      <GulpPlain size="50" />,
+      <NodejsOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+    ],
     img: prj1,
     imgBig: prj1Big,
     gitHubLink: 'https://github.com/NazarTymiv/robot-school',
@@ -41,8 +71,16 @@ export const projectsList = [
   {
     id: '2',
     title: 'Mountains web app',
-    skills:
-      'HTML & CSS, Java Script, Gulp JS, Node JS, Express JS, Figma, Adobe Photoshop',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <JavascriptOriginal size="50" />,
+      <GulpPlain size="50" />,
+      <NodejsOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+    ],
     img: prj2,
     imgBig: prj2Big,
     gitHubLink: 'https://github.com/NazarTymiv/mntn',
@@ -53,8 +91,16 @@ export const projectsList = [
   {
     id: '3',
     title: 'Tech company web app',
-    skills:
-      'HTML & CSS, Java Script, Gulp JS, Node JS, Express JS, Figma, Adobe Photoshop',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <JavascriptOriginal size="50" />,
+      <GulpPlain size="50" />,
+      <NodejsOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+    ],
     img: prj3,
     imgBig: prj3Big,
     gitHubLink: 'https://github.com/NazarTymiv/mozi',
@@ -65,8 +111,19 @@ export const projectsList = [
   {
     id: '4',
     title: 'Admin dashboard',
-    skills:
-      'HTML & CSS, Java Script, Node JS, Express JS, Figma, Adobe Photoshop, React, MongoDB, Mui Material, Mui Icons, Nino',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <JavascriptOriginal size="50" />,
+      <GulpPlain size="50" />,
+      <NodejsOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+      <ReactOriginal size="50" />,
+      <MongodbOriginal size="50" />,
+      <MaterialuiOriginal size="50" />,
+    ],
     img: prj4,
     imgBig: prj4Big,
     gitHubLink: 'https://github.com/NazarTymiv/fullstack-admin',
@@ -77,8 +134,21 @@ export const projectsList = [
   {
     id: '5',
     title: 'Pizza web app',
-    skills:
-      'HTML & CSS, SCSS, JSX, TSX, TypeScript, Java Script, Node JS, Express JS, Figma, Adobe Photoshop, React JS, MongoDB, Redux Toolkit, Redux, Ajax',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <SassOriginal size="50" />,
+      <JavascriptOriginal size="50" />,
+      <TypescriptOriginal size="50" />,
+      <NodejsOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+      <ReactOriginal size="50" />,
+      <MongodbOriginal size="50" />,
+      <ReduxOriginal size="50" />,
+      <AxiosPlain size="50" />,
+    ],
     img: prj5,
     imgBig: prj5Big,
     gitHubLink: 'https://github.com/NazarTymiv/react-pizzeria-advanced',
@@ -89,8 +159,16 @@ export const projectsList = [
   {
     id: '6',
     title: 'Anonymous chat',
-    skills:
-      'HTML & CSS, JSX, Node JS, Express JS, Figma, Adobe Photoshop, Socket.IO',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <JavascriptOriginal size="50" />,
+      <NodejsOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+      <SocketioOriginal size="50" />,
+    ],
     img: prj6,
     imgBig: prj6Big,
     gitHubLink: 'https://github.com/NazarTymiv/SPS',
@@ -101,7 +179,13 @@ export const projectsList = [
   {
     id: '7',
     title: 'Weather App',
-    skills: 'HTML & CSS, JSX, Figma, Adobe Photoshop, React JS, RestAPI',
+    skills: [
+      <Html5Original size="50" />,
+      <Css3Original size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+      <ReactOriginal size="50" />,
+    ],
     img: prj7,
     imgBig: prj7Big,
     gitHubLink: 'https://github.com/NazarTymiv/weather-app',
@@ -112,8 +196,16 @@ export const projectsList = [
   {
     id: '8',
     title: 'Search Job App',
-    skills:
-      'React, JSX, Java Script, Tailwind, express, Elephant SQL, Prisma, Postgresql, Figma, Adobe Photoshop, React Icons',
+    skills: [
+      <ReactOriginal size="50" />,
+      <JavascriptOriginal size="50" />,
+      <TailwindcssOriginal size="50" />,
+      <ExpressOriginal size="50" />,
+      <PrismaOriginal size="50" />,
+      <PostgresqlOriginal size="50" />,
+      <FigmaOriginal size="50" />,
+      <PhotoshopOriginal size="50" />,
+    ],
     img: prj8,
     imgBig: prj8Big,
     gitHubLink: 'https://github.com/NazarTymiv/jobify',
@@ -127,8 +219,16 @@ export const projectsList = [
   {
     id: '9',
     title: 'Discord Clone',
-    skills:
-      'NextJS, Clerk, LiveKit, Prisma ORM, RadixUI, ShadcnUI, Uploadthing, Axios, Lucide, React, socket.io, TailwindCSS, TypeScript, CockroachLabs, PostgreSQL',
+    skills: [
+      <NextjsOriginal size="50" />,
+      <PrismaOriginal size="50" />,
+      <AxiosPlain size="50" />,
+      <ReactOriginal size="50" />,
+      <SocketioOriginal size="50" />,
+      <TailwindcssOriginal size="50" />,
+      <TypescriptOriginal size="50" />,
+      <PostgresqlOriginal size="50" />,
+    ],
     img: prj9,
     imgBig: prj9Big,
     gitHubLink: 'https://github.com/NazarTymiv/nextjs-discord-clone',
