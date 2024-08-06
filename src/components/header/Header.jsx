@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-import CV from 'assets/MyCV.pdf'
+import CV from 'assets/NazarTymivCV.pdf'
 import { ReactTyped } from 'react-typed'
 
 export const Header = () => {
@@ -13,7 +13,7 @@ export const Header = () => {
             strings={[
               '<strong>Hi, my name is <em>Nazar</em></strong><br />a Front end',
               '<strong>Hi, my name is <em>Nazar</em></strong><br />a Back end',
-              '<strong>Hi, my name is <em>Nazar</em></strong><br />a Software Engineer'
+              '<strong>Hi, my name is <em>Nazar</em></strong><br />a Software Engineer',
             ]}
             startDelay={200}
             backDelay={500}
@@ -25,7 +25,7 @@ export const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href={CV} download="MyCV.pdf" className="btn">
+        <a href={CV} download="NazarTymivCV.pdf" className="btn">
           Download CV
         </a>
       </div>
