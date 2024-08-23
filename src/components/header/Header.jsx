@@ -1,7 +1,6 @@
 import React from 'react'
 import './style.css'
 
-import CV from 'assets/NazarTymivCV.pdf'
 import { ReactTyped } from 'react-typed'
 
 export const Header = () => {
